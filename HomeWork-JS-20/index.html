@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="cont">
+
+        <div class="form">
+            <form class='forma' name="f1">
+
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Login</label>
+                    <input type="text" class="form-control" name="loginInput"
+                        placeholder="Enter Login">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputPassword" class="col-form-label">Password</label>
+                    <div class="">
+                        <input type="password" class="form-control" name="paswordInput">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" name="emailInput"
+                        placeholder="Enter email">
+                </div>
+
+                <div class="form-group ">
+                    <button type="button" id="addUserBtn" class="btn btn-success" >Add user</button>
+                    <button type="button" id="editUserBtn" class="btn btn-success" >Edit user</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="tabl">
+            <table class="table" id="table">
+                <thead class="table_caption" id="table_caption">
+                    <td>#</td>
+                    <td>Login</td>
+                    <td>Password</td>
+                    <td>Email</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </thead>
+                <tbody id="tboby">
+
+                </tbody>
+
+                <!-- <tr class="table_user">
+                    <td>#</td>
+                    <td>Login</td>
+                    <td>Password</td>
+                    <td>Email</td>
+                    <td>
+                        <button type="button" class="btn btn-warning butMySize">Edit</button>
+                    </td>
+                    <td>
+                        <button type="button" id="deleteUserBtn" class="btn btn-danger butMySize">Delete</button>
+                    </td>
+                </tr> -->
+                <!-- <button type="button" id="deleteUserBtn" class="deleteUserBtn btn btn-danger butMySize" value="">Delete</button> -->
+
+            </table>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script> -->
+</body>
+
+</html>
